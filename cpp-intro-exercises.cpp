@@ -9,11 +9,14 @@
  * @return Description of the return value.
  */
 
-/*a function should only have one return statement*/
+/*a function should only have one return statement - also, you cannot have two main functions*/
 #include <iostream>
 
 int main() {
     int result = 2 + 2;
     std::cout << result << std::endl;
+/* char is only for a single character, use char[] to store a string*/
+    char word[] = "Hello";
+    std::cout << word << std::endl;
     return 0;
 }
